@@ -1,0 +1,129 @@
+<Locators>
+<object username="//input[@id='txtEmail']"/>
+<object password="//input[@id='txtPassword']"/>
+<object login="//button[@id='btnLogin']"/>
+<object loginForm="//div[@id='loginForm']/div/div"/>
+<object registerForm="//div[@id='registerForm']"/>
+<object SignUp="//div[@id='loginForm']/div/div/div[3]/div[2]/a/span"/>
+<object email="//div[@id='registerForm']//input[@id='txtEmail']"/>
+<object mobilePhone="//input[@id='numHandphone']"/>
+<object trial="//label[text()=' Trial']"/>
+<object purchase="//label[text()=' Purchase']"/>
+<object signUp="//input[@value='Sign Up']"/>
+<object errMsgMobile="//span[@data-bind='validationMessage: mobileNo']"/>
+<object errMsgEmail="//span[@data-bind='validationMessage: emailId']"/>
+<object errMsgPswd="//span[@data-bind='validationMessage: password']"/>
+<object logout="//*[text()=' Logout']"/>
+<object forgotPswd="//a[text()='Forgot Password?']"/>
+<object forgotPswdEmail="//div[@id='passwordResetRequest']//input[@id='txtEmail']"/>
+<object sendPassword="//div[@id='passwordResetRequest']//button[@id='btnLogin']"/>
+<object errMsgResetPswd="//label[@data-bind='validationMessage: emailId']"/>
+<object trialActivated="//label[@class='fhbtn fhbtn-orange']/i[@style='display: none;']"/>
+<object packages="//select[@class='form-control']"/>
+<object tagChildLink="//li[@id='tagChildPage']"/>
+<object dashboard="//li[@id='dashPage']"/>
+<object settings="//li[@id='setPage']"/>
+<object children="//li[@id='childPage']"/>
+<object profile="//li[@id='profPage']"/>
+<object tagChildBtn="//button[@id='tagCh']"/>
+<object childName="//input[@id='name']"/>
+<object ErrMsgScreen="//*[@class='fhbtn fhbtn-orange']ErrMsgScreen = //span[@class='app--validation--error-message']"/>
+<object DOB="//input[@id='dob']"/>
+<object deviceId="//input[@id='deviceId']"/>
+<object successMessage="//span[@data-bind='text: successMessage']"/>
+<object dashboardSettings="(//*[@event-type='SEDASH'])[1]"/>
+<object blockSpecificNumbers="//*[text()='Custom Block Rule']"/>
+<object dashboardReports="//div[@id='dashboardDiv']//a[text()=' Reports']"/>
+<object dashboardLocation="//*[@id='dashboardDiv']/div[2]/div/div/div[4]/div[1]/a[1]"/>
+<object reportsHeader="//div[text()='Reports for ']"/>
+<object locationHeader="//div[@role='region']"/>
+<object digitalInteraction="//a[text()='Digital Interaction']"/>
+<object location="//*[text()='Location']"/>
+<object application="//a[text()='Application']"/>
+<object webbrowser="//*[text()='Web Browser']"/>
+<object facebook="//*[text()='Facebook']"/>
+<object blockSpecificNum="//div[text()='Block Specific Numbers']"/>
+<object contacts="//select[@id='interactionContacts']"/>
+<object blockSpecificNumStartTime="//div[@id='timepick']/div/div[1]/input"/>
+<object blockSpecificNumEndTime="//div[@id='timepick']/div/div[3]/input"/>
+<object blockSpecificNumSET="//div[@id='specificInteraction']/div/div[3]/button"/>
+<object errMsgDay="//*[text()='Select at least one day']"/>
+<object errMsgStartTime="//span[@data-bind='validationMessage: startTime']"/>
+<object errMsgEndTime="Digital interaction config has been saved"/>
+<object blockAllNumPanel="//div[@id='allCommBlocked']"/>
+<object blockAllNumStartTime="//div[@id='allCommBlocked']//input[@id='startTime']"/>
+<object blockAllNumEndTime="//div[@id='allCommBlocked']//input[@id='endTime']"/>
+<object blockAllNumSET="//div[@id='allCommBlocked']//button[text()='SET']"/>
+<object blockAllNumErrStartTime="//div[@id='allCommBlocked']//span[@data-bind='validationMessage: allCommStartTime']"/>
+<object blockAllNumErrEndTime="//div[@id='allCommBlocked']//span[@data-bind='validationMessage: allCommEndTime']"/>
+<object CommunicationalwaysAlowedPanel="//div[@id='alwaysAlowed']"/>
+<object CommunicationalwaysAlowedPhoneNum="//div[@id='alwaysAlowed']//input[@data-bind='value:phoneNumber']"/>
+<object CommunicationalwaysAlowedSET="//div[@id='alwaysAlowed']//button[text()='SET']"/>
+<object ErrMsgCommunicationalwaysAlowed="//div[@id='alwaysAlowed']//p[@data-bind='validationMessage: phoneNumber']"/>
+<object MaxSMSPanel="//div[@id='maxSms']"/>
+<object MaxSMSTextBox="//div[@id='maxSms']//input[@id='maxSMS']"/>
+<object MaxSMSPanelSET="//div[@id='maxSms']//button[text()='SET']"/>
+<object ErrMaxSMSPanel="(//*[text()='Please Enter a Number'])[2]"/>
+<object SmsBarredPanel="//*[@id='smsBarred']/div/div[2]/div[3]/div/input"/>
+<object SmsBarredPanelSET="//*[@data-bind='click: blockWords']"/>
+<object blockedWords="//div[@id='smsBarred']//div[@class='bootstrap-tagsinput']/input"/>
+<object locationLogPanel="//div[@id='locationLog']"/>
+<object LocationPanel="//div[text()='Location']/parent::div"/>
+<object locationPanelLocationField="//label[text()='Location']/following-sibling::input[@id='locationTextField']"/>
+<object locationStartTime="//div[@id='timepick-loc']//input[@id='startTime']"/>
+<object locationPanelEndTime="//div[@id='timepick-loc']//input[@id='endTime']"/>
+<object locationPanelAllowance="//input[@data-bind='value: allowance']"/>
+<object locationPanelSET="//div[text()='Location']/parent::div//button[text()='SET']"/>
+<object locationPanelErrStartTime="//div[text()='Location']/parent::div//p[@data-bind='validationMessage: startTime']"/><object locationPanelErrDay="//div[text()='Location']/parent::div//p[@data-bind='validationMessage: days']"/><object locationPanelErrAllowanceKM="//div[text()='Location']/parent::div//p[text()='Please enter allowed range']"/>
+<object logInterval="//input[@id='newInterval']"/>
+<object logIntervalSET="//*[@data-bind='click: setIntervalConfig']"/>
+<object logIntervalSuccessMsg="//*[text()='Location Monitoring interval has been saved']"/>
+<object applicationRestrictionPanel="//div[text()='Application Restriction']/parent::div"/>
+<object applicationDrpdown="//select[@id='allApps']"/>
+<object applicationStartTime="//div[text()='Application Restriction']/parent::div//input[@id='startTime']"/>
+<object applicationEndTime="(//*[@id='endTime'])[4]"/>
+<object applicationSET="//*[@id='appSetting']/div/div[3]/div/div/div/div[3]/button"/>
+<object ErrAppStartTime="//div[text()='Application Restriction']/parent::div//p[@data-bind='validationMessage: startTime']"/>
+<object ErrAppEndTime="(//*[@id='endTime'])[4]"/>
+<object ErrAppDay="//*[text()='Select at least one day']"/>
+<object generalSettings="//a[@href='#generalSettings']"/>
+<object changePassword="//a[text()=' Change Password']"/>
+<object stopMonitoring="//button[text()=' Stop Monitoring']"/>
+<object oldPassword="//input[@data-bind='value: oldPassword']"/>
+<object newPassword="//input[@data-bind='value: newPassword']"/>
+<object confirmPassword="//input[@data-bind='value: confirmPassword']"/>
+<object startMonitoring="//button[text()=' Start Monitoring']"/>
+<object changePswdBtn="//button[@data-bind='click: checkOldPassword']"/>
+<object errOldPswd="//span[@data-bind='validationMessage: oldPassword']"/>
+<object errNewPswd="//span[@data-bind='validationMessage: newPassword']"/>
+<object pswsDoNotMatch="//span[@data-bind='validationMessage: confirmPassword']"/>
+<object errPswdPatrn="//span[2][text()='Password should be in the mentioned pattern.']"/>
+<object voiceAndSms="//a[@href='#voice_sms']"/>
+<object applocation="//a[@href='#app_location']"/>
+<object exception="//a[@href='#exception']"/>
+<object appLocationPanel="//div[@id='app_location']"/>
+<object digitslInteractionsPanel="//h3[text()='Digital Interactions']/parent::div"/>
+<object exceptionEventsPanel="//h3[text()='Exception Events']/parent::div"/>
+<object BlockAllNumsDay="//span[@data-bind='validationMessage: allCommDays']"/>
+<object maxAppsDropdown="//select[@id='availableAppOptions']"/>
+<object maxUsageTime="//input[@id='appUsageInterval']"/>
+<object maxAppsSet="//div[@id='blockSpecificApps']//button[text()='SET']"/>
+<object ErrMaxAppUsageTime="//div[@id='blockSpecificApps']//p[@data-bind='validationMessage: appUsageInterval']"/>
+<object ErrMaxAppUsageDay="//div[@id='blockSpecificApps']//p[@data-bind='validationMessage: days']"/>
+<object ErrMaxAppUsageApp="//*[text()='Apps usage limit config has been saved']"/>
+<object SuccessMsgMaxAppUsage="//span[text()='Apps usage limit config has been saved']"/>
+<object allDigitalInteractionConfigurations="//a[text()='View Configurations']"/>
+<object logIntervalSet="//div[@id='locationLog']//button[text()='SET']"/>
+<object allCommBlokedTimeConfigBtn="//a[text()='Block All Communication']"/>
+<object partailyBlokedCommBtn="//a[text()='Custom Block Rule']"/>
+<object allCommBlokedNumConfigBtn="//a[text()='Always Block Number']"/>
+<object watchlistConfigBtn="//a[text()='Watch List']"/>
+<object allAllowedNumConfigBtn="//a[text()='Communication Always Allowed']"/>
+<object allAppUsageLimitConfigBtn="//a[text()='Maximum App usage per Day']"/>
+<object allCommBlokedTimeConfigNoData="//div[@id='blockAllCommunication']//div[text()='There is no data as of Now in this sections']"/>
+<object partailyBlokedCommNoData="//div[@id='customBlockRule']//div[text()='There is no data as of Now in this sections']"/>
+<object phoneBook="//span[@id='phoneBook']"/>
+<object addressBookPanel="//h4[text()=' Address Book']"/>
+<object pleaseWait="//b[text()='Please wait...']"/>
+<object watchListConfigNoData="//div[@id='watchlist']//div[text()='There is no data as of Now in this sections']"/>
+</Locators>

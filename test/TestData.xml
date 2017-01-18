@@ -1,0 +1,57 @@
+<TestData>
+<UserInfo>
+<data no="1" username="" password="" expected="fail" errMsg="Please enter emailid:Please enter password"/>
+<data no="2" username="1234567895@gmail.com" password="GLOBAL" expected="fail" errMsg="Looks like you don't have a familyhawk account please sign-up with 1234567895@gmail.com"/>
+<data no="3" username="GLOBAL" password="test2" expected="fail" errMsg="Please re-enter your password"/>
+<data no="4" username="GLOBAL" password="" expected="fail" errMsg="Please enter password"/>
+<data no="5" username="GLOBAL" password="GLOBAL" expected="true" errMsg=""/>
+</UserInfo>
+<SignUpInfo>
+<data no="1" username="RANDOM" phone="" expected="fail" errMsg="Please enter Mobile Number"/>
+<data no="2" username="" phone="RANDOM" expected="fail" errMsg="Email address is required"/>
+<data no="3" username="hnhasdj@jdjsdh#$%" phone="RANDOM" expected="fail" errMsg="Please enter a valid email address"/>
+<data no="4" username="RANDOM" phone="ajdhjs0889" expected="fail" errMsg="Mobile number should be consisting of numbers only and of 10 digits"/>
+</SignUpInfo>
+<TagChildInfo>
+<data no="1" childName=""  dob="" expected="fail" deviceId="" errMsg="Please enter child's name:Please enter child's DOB:Please enter child's deviceId"/>
+<data no="2" childName="" dob="30-05-2000" expected="fail" deviceId="RANDOM" errMsg="Please enter child's name"/>
+<data no="3" childName="RANDOM"  dob="30-05-2000" expected="pass" deviceId="RANDOM" errMsg=""/>
+<data no="4" childName="RANDOM"  dob="" expected="fail" deviceId="RANDOM" errMsg="Please enter child's DOB"/>
+<data no="5" childName="RANDOM"  dob="30-05-2000" expected="fail" deviceId="" errMsg="Please enter child's deviceId"/>
+<data no="6" childName="RANDOM"  dob="30-05-2000" expected="pass" deviceId="" errMsg=""/>
+</TagChildInfo>
+<NewPswdInfo>
+<data no="1" newPswd="pasword"/>
+<data no="2" newPswd="password"/>
+<data no="3" newPswd="passwordd"/>
+<data no="4" newPswd="Pasword"/>
+<data no="5" newPswd="Paswrd*"/>
+<data no="6" newPswd="ttttttttttt"/>
+<data no="7" newPswd="Newpaswrd"/>
+<data no="8" newPswd="Newpaswrd*"/>
+<data no="9" newPswd="*^*()%$#"/>
+<data no="10" newPswd="newpswrd!"/>
+<data no="11" newPswd="Pasword1"/>
+<data no="12" newPswd="12345678"/>
+<data no="13" newPswd="paswo$4"/>
+<data no="14" newPswd="pswdC6"/>
+<data no="15" newPswd="nbcmnxvcgbv"/>
+</NewPswdInfo>
+<ConfirmPswdInfo>
+<data no="1" confirmPswd="pasword"/>
+<data no="2" confirmPswd="password"/>
+<data no="3" confirmPswd="passwordd"/>
+<data no="4" confirmPswd="Pasword"/>
+<data no="5" confirmPswd="Paswrd*"/>
+<data no="6" confirmPswd="ttttttttttt"/>
+<data no="7" confirmPswd="Newpaswrd"/>
+<data no="8" confirmPswd="Newpaswrd*"/>
+<data no="9" confirmPswd="*^*()%$#"/>
+<data no="10" confirmPswd="newpswrd!"/>
+<data no="11" confirmPswd="Pasword1"/>
+<data no="12" confirmPswd="12345678"/>
+<data no="13" confirmPswd="paswo$4"/>
+<data no="14" confirmPswd="pswdC6"/>
+<data no="15" confirmPswd="nbcmnxvcgbv"/>
+</ConfirmPswdInfo>
+</TestData>
